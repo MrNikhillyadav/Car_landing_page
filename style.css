@@ -1,0 +1,289 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+
+}
+#logo {
+    padding-left: 30px;
+    width: 55px;
+    padding-bottom: 5px;
+}
+
+
+#navlinks{
+    padding-top: 50px;
+    /* background-color: rgb(177, 176, 176); */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+   
+}
+
+#navlinks a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    /* background-color: red; */
+}
+#navlinks a:hover {
+    text-decoration: none;
+    color: rgb(246, 3, 3);
+}
+.navbar{
+    /* background-color: rgb(160, 160, 255); */
+    /* padding-top: 30px ; */
+}
+
+#ham-icon{
+    font-size: 30px;
+    padding-right: 60px;
+    color: orangered;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 555px;
+    position: relative;
+    /* background-color: rgb(31, 255, 64); */
+}
+ .left{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    position: relative;
+   
+}
+.content .right{
+    /* background-color: rgba(243, 106, 255, 0.715); */
+    width: 50%;
+}
+.bottom{
+    /* background-color: rgba(173, 173, 173, 0.43); */
+    width: 100%;
+    height: 172px;
+    display: flex;
+
+}
+
+.text {
+    /* background-color: rgb(54, 237, 231); */
+    margin: 80px;
+    position: absolute;
+    top: 10%;
+}
+.text h3{
+    color: rgba(128, 128, 128, 0.681);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.text h1{
+    color:  rgb(255, 0, 0);
+    font-size: 75px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-bottom: -10px;
+    
+    /* background-color: rgb(55, 255, 0); */
+
+}
+.text h2{
+    color: rgb(67, 65, 65);
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    /* background-color: yellow; */
+    position: relative;
+}
+.text p{
+    width: 70%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(159, 159, 159);
+    /* background-color: yellow; */
+   
+}
+#button{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#car img{
+    width: 750px;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    border-radius: 30%;
+}
+#car img:hover{
+    width: 750px;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    border-radius: 30%;
+    transform: scale(1.09);
+    transition: transform 1.1s;
+}
+
+.left h1{
+    position: absolute;
+    color: rgba(146, 33, 33, 0.126);
+    font-weight: bolder;
+    font-size: 200px;
+    text-align: center;
+    top: 6%;
+    left: 14%;
+}
+#vline {
+    display: flex;
+    flex-direction: column;  
+
+}
+#vline h3{
+    transform: rotate(-90deg);
+    top: 50%;
+    position: absolute;
+    color: rgba(96, 96, 96, 0.727);
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 1px;
+    left: 1%;
+}
+#bone{
+    width: 20%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#btwo{
+    width: 18%;
+    /* background-color: rgb(47, 228, 31); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#bthree{
+    width: 18%;
+    /* background-color: rgb(11, 88, 255); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#bfour{
+    width: 18%;
+    /* background-color: rgb(222, 255, 11); */
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#bfive{
+    width: 26%;
+    /* background-color: rgba(54, 54, 52, 0.836); */
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+#sm-icons{
+     /* background-color: aliceblue; */
+     display: flex;
+     gap: 50px;
+     font-size: medium;
+    
+}
+#btwo-text{
+    /* background-color: yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 5px;
+    /* flex-direction: column; */
+    border-left: 2px solid rgb(255, 0, 0);
+    padding : 0 55px;
+}
+#btwo-text h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(67, 65, 65);   
+}
+#btwo-text p{ 
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight:lighter;
+    color: rgb(101, 101, 101);
+
+}
+ .feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(67, 65, 65);
+    font-weight: 500;
+    padding-left: 5px;
+
+}
+#padding2{
+    position: absolute;
+    top: 20%;
+
+}
+#padding3{
+    position: absolute;
+    top: 20%;
+
+}
+#padding4{
+    position: absolute;
+    top: 20%;
+
+}
+#padding5{
+    position: absolute;
+    top: 26%;
+    font-size: 40px;
+    right: 12%;
+    /* color: rgb(255, 254, 254); */ 
+
+}
+#l-arrow{
+    color: rgba(128, 128, 128, 0.744);
+}
+
